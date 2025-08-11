@@ -1,0 +1,82 @@
+{
+  "hackernews": [
+    {
+      "title": "A large number of protocols on Ethereum and Solana blockchains have no revenue",
+      "url": "https://www.coindesk.com/markets/2025/07/23/disguised-unemployment-in-blockchain-data-shows-only-12-of-ethereum-25-of-solana-protocols-have-revenue",
+      "points": 23,
+      "comments_count": 19,
+      "created_at": "2025-08-11T02:50:53",
+      "author": "PaulHoule",
+      "source": "hackernews",
+      "story_id": "44858401",
+      "hn_url": "https://news.ycombinator.com/item?id=44858401"
+    },
+    {
+      "title": "Quantum Computing Could Upend Bitcoin",
+      "url": "https://www.barrons.com/articles/quantum-computing-bitcoin-blockchain-55474890",
+      "points": 4,
+      "comments_count": 0,
+      "created_at": "2025-08-09T13:06:22",
+      "author": "johntfella",
+      "source": "hackernews",
+      "story_id": "44844749",
+      "hn_url": "https://news.ycombinator.com/item?id=44844749"
+    },
+    {
+      "title": "Quantum Computing Could Upend Bitcoin",
+      "url": "https://www.barrons.com/articles/quantum-computing-bitcoin-blockchain-55474890",
+      "points": 3,
+      "comments_count": 2,
+      "created_at": "2025-08-10T07:56:14",
+      "author": "bookofjoe",
+      "source": "hackernews",
+      "story_id": "44852312",
+      "hn_url": "https://news.ycombinator.com/item?id=44852312"
+    }
+  ],
+  "arxiv": [
+    {
+      "title": "Blockchain-Based Decentralized Domain Name System",
+      "authors": "Guang Yang, Peter Trinh, Alma Nkemla, Amuru Serikyaku, Edward Tatchim, Osman Sharaf",
+      "abstract": "arXiv:2508.05655v1 Announce Type: new \nAbstract: The current Domain Name System (DNS) infrastructure faces critical vulnerabilities including poisoning attacks, censorship mechanisms, and centralized points of failure that compromise internet freedom and security. Recent incidents such as DNS poisoning attacks on ISP customers highlight the urgent need for resilient alternatives. This paper presents a novel blockchain-based Decentralized Domain Name System (DDNS). We designed a specialized Proof-of-Work blockchain to maximize support for DNS-related protocols and achieve node decentralization. The system integrates our blockchain with IPFS for distributed storage, implements cryptographic primitives for end-to-end trust signatures, and achieves Never Trust, Always Verify zero-trust verification. Our implementation achieves 15-second domain record propagation times, supports 20 standard DNS record types, and provides perpetual free .ddns domains. The system has been deployed across distributed infrastructure in San Jose, Los Angeles, and Orange County, demonstrating practical scalability and resistance to traditional DNS manipulation techniques. Performance evaluation shows the system can handle up to Max Theor. TPS 1,111.1 tx/s (minimal transactions) and Max Theor. TPS 266.7 tx/s (regular transactions) for domain operations while maintaining sub-second query resolution through intelligent caching mechanisms.",
+      "pdf_url": "https://arxiv.org/pdf/oai:arXiv.org:2508.05655v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/oai:arXiv.org:2508.05655v1",
+      "published_date": "2025-08-11T04:00:00",
+      "category": "cs.CR",
+      "source": "arxiv",
+      "arxiv_id": "oai:arXiv.org:2508.05655v1",
+      "url": "https://arxiv.org/abs/oai:arXiv.org:2508.05655v1"
+    },
+    {
+      "title": "Secure and Scalable Blockchain Voting: A Comparative Framework and the Role of Large Language Models",
+      "authors": "Kiana Kiashemshaki, Elvis Nnaemeka Chukwuani, Mohammad Jalili Torkamani, Negin Mahmoudi",
+      "abstract": "arXiv:2508.05865v1 Announce Type: new \nAbstract: Blockchain technology offers a promising foundation for modernizing E-Voting systems by enhancing transparency, decentralization, and security. Yet, real-world adoption remains limited due to persistent challenges such as scalability constraints, high computational demands, and complex privacy requirements. This paper presents a comparative framework for analyzing blockchain-based E-Voting architectures, consensus mechanisms, and cryptographic protocols. We examine the limitations of prevalent models like Proof of Work, Proof of Stake, and Delegated Proof of Stake, and propose optimization strategies that include hybrid consensus, lightweight cryptography, and decentralized identity management. Additionally, we explore the novel role of Large Language Models (LLMs) in smart contract generation, anomaly detection, and user interaction. Our findings offer a foundation for designing secure, scalable, and intelligent blockchain-based E-Voting systems suitable for national-scale deployment. This work lays the groundwork for building an end-to-end blockchain E-Voting prototype enhanced by LLM-guided smart contract generation and validation, supported by a systematic framework and simulation-based analysis.",
+      "pdf_url": "https://arxiv.org/pdf/oai:arXiv.org:2508.05865v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/oai:arXiv.org:2508.05865v1",
+      "published_date": "2025-08-11T04:00:00",
+      "category": "cs.CR",
+      "source": "arxiv",
+      "arxiv_id": "oai:arXiv.org:2508.05865v1",
+      "url": "https://arxiv.org/abs/oai:arXiv.org:2508.05865v1"
+    },
+    {
+      "title": "FairDAG: Consensus Fairness over Multi-Proposer Causal Design",
+      "authors": "Dakai Kang, Junchao Chen, Tien Tuan Anh Dinh, Mohammad Sadoghi",
+      "abstract": "arXiv:2504.02194v2 Announce Type: replace-cross \nAbstract: The rise of cryptocurrencies like Bitcoin and Ethereum has driven interest in blockchain database technology, with smart contracts enabling the growth of decentralized finance (DeFi). However, research has shown that adversaries exploit transaction ordering to extract profits through attacks like front-running, sandwich attacks, and liquidation manipulation. This issue affects blockchain databases in which block proposers have full control over transaction ordering. To address this, a more fair approach to transaction ordering is essential.\n  Existing fairness protocols, such as Pompe and Themis, operate on leader-based consensus protocols, which not only suffer from low throughput, but also allow adversaries to manipulate transaction ordering. To address these limitations, we propose FairDAG-AB and FairDAG-RL that run fairness protocols on top of DAG-based consensus protocols, which improve protocol performance in both throughput and fairness quality, leveraging the multi-proposer design and validity of DAG-based consensus protocols.\n  We conducted a comprehensive analytical and experimental evaluation of our protocols. The results show that FairDAG-AB and FairDAG-RL outperform the prior fairness protocols in both throughput and fairness quality.",
+      "pdf_url": "https://arxiv.org/pdf/oai:arXiv.org:2504.02194v2.pdf",
+      "arxiv_url": "https://arxiv.org/abs/oai:arXiv.org:2504.02194v2",
+      "published_date": "2025-08-11T04:00:00",
+      "category": "cs.CR",
+      "source": "arxiv",
+      "arxiv_id": "oai:arXiv.org:2504.02194v2",
+      "url": "https://arxiv.org/abs/oai:arXiv.org:2504.02194v2"
+    }
+  ],
+  "rss": [],
+  "metadata": {
+    "topic": "blockchain",
+    "days": 3,
+    "scraped_at": "2025-08-11T21:33:48.631516",
+    "total_articles": 6
+  }
+}

@@ -1,0 +1,38 @@
+# Core web framework (none; CLI app)
+
+# HTTP requests and web scraping
+requests
+httpx
+aiohttp
+
+# RSS and content parsing
+feedparser
+newspaper3k
+beautifulsoup4
+
+# Advanced web crawling
+crawl4ai
+
+# Data processing
+pandas
+python-dotenv
+
+# Utilities
+fake-useragent
+pathlib
+
+# Visualization (none for CLI)
+
+# Vector + Embeddings
+chromadb
+sentence-transformers
+
+# Standard library modules (included for completeness)
+# datetime
+# json
+# time
+# asyncio
+# pathlib
+# re
+# base64
+# urllib
